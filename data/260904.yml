@@ -7,7 +7,7 @@ about:
   head: 62693cc
   archived: false
   latestVersion: 1.9.1
-  collectedAt: 2026-09-04T19:21:07Z
+  collectedAt: 2026-09-04T21:10:58Z
 timeline:
   created: 2021-02-03
   lastCommit: 2026-05-27
@@ -83,5 +83,33 @@ total:
   openIssue: 9
   commit: 261
 ---
+path: /home/runner/.x-repo/github.com/alexmyczko/fnt
+collectedAt: 2026-09-04T21:11:00Z
+loc:
+  Bash:
+    code: 388
+    comments: 32
+    blanks: 18
+    files: 1
+  ObjectiveC:
+    code: 171
+    comments: 48
+    blanks: 47
+    files: 1
+  Makefile:
+    code: 33
+    comments: 1
+    blanks: 7
+    files: 1
+  Markdown:
+    code: 0
+    comments: 125
+    blanks: 57
+    files: 1
+total:
+  code: 592
+  comments: 206
+  blanks: 129
+  files: 4
 ---
 
