@@ -35,22 +35,22 @@ Total: **605** lines of code across **4** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 646 · **Forks**: 24 · **Open issues**: 32 · **Contributors**: 11
+- **Stars**: 648 · **Forks**: 24 · **Open issues**: 33 · **Contributors**: 11
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 33 · **Open PRs**: 0 · **Closed issues**: 25 · **Open issues**: 7 · **Commits**: 265
+- **Releases**: 18 · **Merged PRs**: 33 · **Open PRs**: 1 · **Closed issues**: 25 · **Open issues**: 8 · **Commits**: 265
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 1 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-08-22 | 1 | 2 | 0 | 2 | 0 | 2 |
-| 90d | 2026-07-23 | 1 | 2 | 0 | 2 | 0 | 2 |
-| last180d | 2026-04-24 | 1 | 3 | 0 | 4 | 1 | 3 |
-| 360d | 2025-10-26 | 2 | 5 | 0 | 5 | 1 | 12 |
-| last720d | 2024-10-31 | 3 | 13 | 0 | 8 | 2 | 52 |
+| 30d | 2026-09-22 | 1 | 0 | 1 | 1 | 1 | 0 |
+| last60d | 2026-08-23 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 90d | 2026-07-24 | 1 | 2 | 1 | 2 | 1 | 2 |
+| last180d | 2026-04-25 | 1 | 3 | 1 | 4 | 2 | 3 |
+| 360d | 2025-10-27 | 2 | 5 | 1 | 5 | 2 | 12 |
+| last720d | 2024-11-01 | 3 | 13 | 1 | 8 | 3 | 52 |
 
 ## Improve this data
 
@@ -61,4 +61,4 @@ Install metadata for fnt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:40:24Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:40:05Z._
