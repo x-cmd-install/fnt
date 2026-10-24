@@ -1,17 +1,5 @@
-- repo: aur
-  srcname: fnt
-  binname: fnt
-  visiblename: fnt
-  version: 1.9.2
-  origversion: 1.9.2-2
-  status: newest
-  summary: The missing font manager for Linux
-  maintainers:
-    - mdrv@aur
-  licenses:
-    - MIT
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: fnt
   binnames:
     - fnt
@@ -24,8 +12,8 @@
     - tar@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: raspbian_stable
+  subrepo: main
   srcname: fnt
   binnames:
     - fnt
@@ -45,9 +33,9 @@
   binnames:
     - fnt
   visiblename: fnt
-  version: "1.9"
-  origversion: 1.9-4
-  status: outdated
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: newest
   maintainers:
     - debian-fonts@lists.debian.org
     - christopher@bocki.com
@@ -99,18 +87,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: freebsd
-  srcname: x11-fonts/fnt
-  binname: fnt
-  visiblename: x11-fonts/fnt
-  version: 1.9.2
-  origversion: null
-  status: newest
-  summary: Missing font manager for UNIX
-  maintainers:
-    - nxjoseph@freebsd.org
-  categories:
-    - x11-fonts
 - repo: homebrew
   srcname: fnt
   visiblename: fnt
@@ -148,6 +124,18 @@
     - tar@debian.org
   categories:
     - misc
+- repo: freebsd
+  srcname: x11-fonts/fnt
+  binname: fnt
+  visiblename: x11-fonts/fnt
+  version: 1.9.2
+  origversion: null
+  status: newest
+  summary: Missing font manager for UNIX
+  maintainers:
+    - nxjoseph@freebsd.org
+  categories:
+    - x11-fonts
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: fnt
@@ -160,6 +148,47 @@
   maintainers:
     - debian-fonts@lists.debian.org
     - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: "1.9"
+  origversion: 1.9-1
+  status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: aur
+  srcname: fnt
+  binname: fnt
+  visiblename: fnt
+  version: 1.9.2
+  origversion: 1.9.2-2
+  status: newest
+  summary: The missing font manager for Linux
+  maintainers:
+    - mdrv@aur
+  licenses:
+    - MIT
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: 1.4.1
+  origversion: 1.4.1-2
+  status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
     - tar@debian.org
   categories:
     - misc
@@ -178,44 +207,15 @@
     - tar@debian.org
   categories:
     - fonts
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: 1.4.1
-  origversion: 1.4.1-2
-  status: outdated
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - tar@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: "1.9"
-  origversion: 1.9-1
-  status: outdated
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - christopher@bocki.com
-    - tar@debian.org
-  categories:
-    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: fnt
   binnames:
     - fnt
   visiblename: fnt
-  version: "1.9"
-  origversion: 1.9-4
-  status: outdated
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: newest
   maintainers:
     - debian-fonts@lists.debian.org
     - christopher@bocki.com
