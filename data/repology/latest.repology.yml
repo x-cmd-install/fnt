@@ -1,77 +1,3 @@
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: "1.9"
-  origversion: 1.9-1
-  status: outdated
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - christopher@bocki.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: "1.9"
-  origversion: 1.9-1
-  status: outdated
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - christopher@bocki.com
-    - tar@debian.org
-  categories:
-    - fonts
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: 1.4.1
-  origversion: 1.4.1-2
-  status: outdated
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - tar@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: "1.9"
-  origversion: 1.9-1
-  status: outdated
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - christopher@bocki.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: fnt
-  binnames:
-    - fnt
-  visiblename: fnt
-  version: 1.9.2
-  origversion: 1.9.2-1
-  status: newest
-  maintainers:
-    - debian-fonts@lists.debian.org
-    - christopher@bocki.com
-    - tar@debian.org
-  categories:
-    - misc
 - repo: aur
   srcname: fnt
   binname: fnt
@@ -143,6 +69,36 @@
     - tar@debian.org
   categories:
     - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: "1.9"
+  origversion: 1.9-1
+  status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: newest
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - misc
 - repo: freebsd
   srcname: x11-fonts/fnt
   binname: fnt
@@ -192,6 +148,50 @@
     - tar@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: "1.9"
+  origversion: 1.9-1
+  status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: "1.9"
+  origversion: 1.9-1
+  status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - fonts
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: 1.4.1
+  origversion: 1.4.1-2
+  status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - tar@debian.org
+  categories:
+    - misc
 - repo: raspbian_stable
   subrepo: main
   srcname: fnt
@@ -225,9 +225,9 @@
 - repo: slackbuilds
   srcname: system/fnt
   visiblename: system/fnt
-  version: 1.9.1
+  version: 1.9.2
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - vijaymarcel@outlook.com
   categories:
@@ -314,6 +314,21 @@
   version: "1.9"
   origversion: 1.9-3
   status: outdated
+  maintainers:
+    - debian-fonts@lists.debian.org
+    - christopher@bocki.com
+    - tar@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: fnt
+  binnames:
+    - fnt
+  visiblename: fnt
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: newest
   maintainers:
     - debian-fonts@lists.debian.org
     - christopher@bocki.com
