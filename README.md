@@ -45,12 +45,12 @@ Total: **605** lines of code across **4** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 1 | 0 | 2 | 1 | 2 |
-| last60d | 2026-09-11 | 1 | 3 | 0 | 3 | 1 | 3 |
-| 90d | 2026-08-12 | 1 | 3 | 0 | 3 | 1 | 4 |
-| last180d | 2026-05-14 | 1 | 4 | 0 | 5 | 1 | 5 |
-| 360d | 2025-11-15 | 2 | 4 | 0 | 6 | 2 | 10 |
-| last720d | 2024-11-20 | 3 | 14 | 0 | 9 | 3 | 55 |
+| 30d | 2026-10-12 | 1 | 1 | 0 | 2 | 1 | 2 |
+| last60d | 2026-09-12 | 1 | 3 | 0 | 3 | 1 | 3 |
+| 90d | 2026-08-13 | 1 | 3 | 0 | 3 | 1 | 4 |
+| last180d | 2026-05-15 | 1 | 4 | 0 | 5 | 1 | 5 |
+| 360d | 2025-11-16 | 2 | 4 | 0 | 6 | 2 | 10 |
+| last720d | 2024-11-21 | 3 | 14 | 0 | 9 | 3 | 55 |
 
 ## Distribution status
 
@@ -74,4 +74,4 @@ Install metadata for fnt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:25:14Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:16:25Z._
